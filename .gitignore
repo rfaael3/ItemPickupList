@@ -1,0 +1,32 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# IDE and user-specific settings
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Compiled assemblies and debug symbols
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Local game/mod configuration and logs
+*.cfg
+*.log
+
+# Release archives
+*.zip
+*.7z
+*.rar
+
+# OS metadata
+.DS_Store
+Thumbs.db
