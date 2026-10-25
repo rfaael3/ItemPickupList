@@ -71,16 +71,6 @@ Under **General**, click **Reset to defaults** and then **Reset all**. This rest
 | Maximum visible | 6 |
 | Preview shortcut | F8 |
 
-## Updating to 0.3.10
-
-The plugin identifier now uses **rfaael**. Remove the previous ItemPickupList DLL before installing this build, including any copies in other plugin folders. The new configuration file is `BepInEx/config/rfaael.ItemPickupList.cfg`. If you want to keep your settings from 0.3.7 or later, copy your previous ItemPickupList configuration to this new filename before launching the game.
-
-## Updating from versions before 0.3.7
-
-Configuration sections and keys were renamed to English in 0.3.7. Previous settings are not migrated automatically. With the game closed, back up or rename `BepInEx/config/rfaael.ItemPickupList.cfg`, launch the game, and configure the new English entries. This also removes old entries from the active file. Defaults will be restored.
-
-Item names and descriptions use the game's selected language.
-
 ## Scope and compatibility
 
 - This mod changes pickup notifications for the local player; it does not grant items or change item effects.
